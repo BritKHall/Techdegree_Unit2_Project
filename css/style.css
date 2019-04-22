@@ -1,18 +1,33 @@
 
+    h2 {
+    color: yellow
+}
 
 
+/* ------------media queries------------------------ */
+
+@media (min-width: 320px) {
+
+    .banner {
+        color: red
+
+    }
+
+}
 
 
+@media (min-width: 768px) {
+
+    .banner {
+        color: blue
+    }
+}
 
 
+@media (min-width: 1024px) {
+    
+    .banner {
+        color: green
+    }
 
-
-
-
-
-
-.clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
 }
