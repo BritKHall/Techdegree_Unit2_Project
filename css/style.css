@@ -1,33 +1,203 @@
 
-    h2 {
-    color: yellow
+
+/* --------------Base ele---------------------------- */
+
+* {
+    box-sizing: border-box;
 }
+
+.main-header,
+.main-footer {
+    text-align: center;
+    background-color: rgb(255, 244, 228);
+    background-image:linear-gradient( rgb(143, 62, 62),rgb(223, 210, 170))
+
+}
+
+.name {
+    margin-top: 0;
+    padding-top: 1em;
+    padding-bottom: 5px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px 2px rgb(255, 217, 0);
+    
+}
+
+.main-nav {
+    margin-bottom: 1em;
+}
+
+.main-nav li {
+    background-color: rgb(230, 223, 216);
+    border-radius: 60px;
+    margin-bottom: 10px;
+    font-family: 'Philosopher', sans-serif;
+    padding: 7px;
+    
+}
+
+.name a{
+    color: rgba(114, 49, 49, 0.849);
+    text-decoration: none;
+}
+.main-nav a {
+    display: block;
+    font-size: .95em;
+    color: rgb(121, 80, 70);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+   
+.main-header {
+    background-image: url('../images/blackandwhitebooks.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner {
+    text-align: center;
+    background-image:linear-gradient(rgb(223, 210, 170) , rgb(143, 62, 62));
+    background-color: rgb(255, 244, 228);
+}
+
+.container {
+   
+    text-align: center;
+
+}
+
+.logo {
+  margin-top: 2em;
+  width: 65%;
+  border-radius: 10%;
+}
+
+.intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: rgb(124, 24, 24) 1px 0 10px;
+    font-family: 'Philosopher', sans-serif;
+    margin-top: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.main-footer {
+    padding-top: 1em;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+/* -------------Base layout------------------------ */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 
 
 /* ------------media queries------------------------ */
 
-@media (min-width: 320px) {
-
-    .banner {
-        color: red
-
-    }
-
-}
 
 
 @media (min-width: 768px) {
 
-    .banner {
-        color: blue
-    }
+.name {
+    margin-top: 0;
+    
+}
+
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: -15px;
+    padding: 5px 15px;
+}
+
+.logo {
+    float: right;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 450px;
+    
+}
+.intro {
+    padding-top: 1.8em;
+    padding-left: 40px;
+    text-align: left;
+
+}
+
+.banner {
+    width: 100%;
+}
+
+.col {
+    float: right;
+    width: 50%;
+}
+
 }
 
 
 @media (min-width: 1024px) {
     
-    .banner {
-        color: green
-    }
 
+
+.name {
+    float: left;
+    margin-top: 20px;
+    padding: 0;
+    padding-left: 40px;
 }
+
+.main-nav {
+    float: right;
+    margin-top: 2em;
+    margin-right: -3px;
+}
+
+
+.intro {
+    font-size: 24px;
+    width: 50%;
+    margin: 0;
+}
+
+.logo {
+    width: 550px;
+    
+}
+
+.col {
+    float: right;
+    width: 33.3%;
+}
+}
+  
+.location {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+/* ------------------ Float clearfix ---------------- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+
+
+
