@@ -114,6 +114,7 @@
         border-top: black solid 1px;
         padding: 10px;
         margin:0;
+        font-size: 35px
     }
 
 /* -------------Base layout------------------------ */
@@ -122,9 +123,6 @@
     width: 65%;
     border-radius: 10%;
     }
-
-
-
 
     html,body {
         width: 100%;
