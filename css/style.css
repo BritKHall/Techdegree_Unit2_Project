@@ -49,6 +49,10 @@
         color: rgb(255, 250, 250)
     }
     
+    .footer-nav li :hover {
+        color: rgb(255, 250, 250)
+    }
+    
     .main-header {
         background-image: url('../images/blackandwhitebooks.jpg');
         background-color: blanchedalmond;
@@ -103,6 +107,12 @@
         font-family: cursive;
         font-weight: bold;
     }
+   
+    .title {
+        border-top: black solid 1px;
+        padding: 10px;
+        margin:0;
+    }
 
 /* -------------Base layout------------------------ */
     .logo {
@@ -110,6 +120,9 @@
     width: 65%;
     border-radius: 10%;
     }
+
+
+
 
     html,body {
         width: 100%;
@@ -127,7 +140,21 @@
     .location {
         margin-bottom: 0;
         padding-bottom: 20px;
+    }    
+
+    .footer-info {
+        border-top: black solid 1px;
+        padding-bottom: 10px;
+       
     }
+    
+    .footer-nav li{
+        padding-top: 10px;
+        padding-left: 10px;
+        display: inline;
+    }    
+    
+
 /* ------------media queries------------------------ */
 
 
@@ -135,8 +162,7 @@
 @media (min-width: 768px) {
 
     .name {
-        margin-top: 0;
-        
+        margin-top: 0;  
     }
 
 
@@ -187,6 +213,18 @@
         width: 40%;
 
     }
+
+
+    .footer-nav li{
+        float: right;
+        padding: 10px;
+    }    
+    
+    .footer-name {
+        float:left;
+        margin: 10px;
+    }
+
 
 }
 
@@ -239,7 +277,7 @@
     }
 
     .title {
-        
+        border: 0;
     }
 
 }
