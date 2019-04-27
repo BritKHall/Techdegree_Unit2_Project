@@ -133,8 +133,9 @@
     }
 
     .content {
-        margin-left: 5%;
-        margin-right: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
         background-color: rgb(247, 240, 233)
     }
 
@@ -280,6 +281,12 @@
 
     .lowest-img {
         width: 60%
+    }
+
+    .content {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0px;
     }
 
 
