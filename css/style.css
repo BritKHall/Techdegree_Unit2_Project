@@ -67,6 +67,7 @@
         text-align: center;
         background-image:linear-gradient(50deg, rgb(223, 210, 170) ,white , rgb(82, 20, 20) 80%);
         background-color: rgb(255, 244, 228);
+        border-bottom: 1px solid black;
     }
 
     .container {
@@ -93,10 +94,6 @@
         font-family: 'Satisfy' , cursive;
     }
 
-    /* .col {
-        background-color: rgb(223, 221, 219);
-        border-radius: 20px;
-    } */
 
     .title { 
         font-family: Arvo;
@@ -111,10 +108,13 @@
     }
    
     .title {
-        border-top: black solid 1px;
         padding: 10px;
         margin:0;
         font-size: 35px
+    }
+
+    .border-title {
+        border-top: black solid 1px;
     }
 
 /* -------------Base layout------------------------ */
@@ -130,6 +130,12 @@
         margin: 0px;
         padding: 0px;
         overflow-x: hidden; 
+    }
+
+    .content {
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: rgb(247, 240, 233)
     }
 
     .main-footer {
@@ -276,9 +282,7 @@
         width: 60%
     }
 
-    .title {
-        border: 0;
-    }
+
 
 }
 
